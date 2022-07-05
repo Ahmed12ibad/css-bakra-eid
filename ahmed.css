@@ -35,7 +35,18 @@ text-align: center;
 color: greenyellow;
 margin-right: 8%;
 border-radius: 30%;
+background-size: 100% 100%;
+animation: shayan 9s infinite linear
 }
+@keyframes shayan {
+    100%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    50%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    20%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+    0%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+}
+
+
+
 .card-2{
     flex: 0.3;
     background-color: white;
@@ -44,7 +55,18 @@ border-radius: 30%;
     color: greenyellow;
     margin-right: 8%;
     border-radius: 30%;
+    background-size: 100% 100%;
+animation: basit 9s infinite linear
 }
+
+@keyframes basit {
+    100%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    50%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    20%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+    0%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+}
+
+
 .card-3{
 
     flex: 0.3;
@@ -54,7 +76,17 @@ text-align: center;
 color: greenyellow;
 margin-right: 8%;
 border-radius: 30%;
+background-size: 100% 100%;
+animation: ibad 9s infinite linear
 }
+@keyframes ibad {
+    100%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    50%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    20%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+    0%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+}
+
+
 
  @media  (max-width: 720px) {
 .card-1{
